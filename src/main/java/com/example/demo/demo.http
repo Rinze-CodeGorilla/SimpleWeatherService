@@ -1,0 +1,19 @@
+### Add Weather
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "temperature": 31,
+  "cloudiness": "SUNNY",
+  "city": "Os"
+}
+
+### Add Weather for Groningen
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "temperature": 31,
+  "cloudiness": "SUNNY",
+  "city": "Groningen"
+}
